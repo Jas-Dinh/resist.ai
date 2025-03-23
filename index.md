@@ -1,7 +1,7 @@
 # resist.ai 
 
 
-![Product Logo](logo.svg)  <!-- Replace with your logo image path -->
+![Product Logo](resistai-logo.svg)  <!-- Replace with your logo image path -->
 
 ## Our Mission
 
