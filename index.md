@@ -1,26 +1,24 @@
 ![Product Logo](images/resistai-logo.svg)  <!-- Replace with your logo image path -->
 
-## Our Mission
+# antibiotic stewardship
 
-add mission 
-
-[Visit Our Website](https://www.productwebsite.com) <!-- Link to the product website -->
+add mission statement 
 
 ---
 
-## About 
+# about
 
 add stuff
 
 ---
 
-## Meet the Team
+# meet the team 
 
 add people & roles 
 
 ---
 
-## User Testimonials
+## testimonials
 
 > "This product is awesome"
 > — Jane Doe
