@@ -1,10 +1,8 @@
-# resist.ai 
-
-
 ![Product Logo](images/resistai-logo.svg)  <!-- Replace with your logo image path -->
 
 ## Our Mission
 
+add mission 
 
 [Visit Our Website](https://www.productwebsite.com) <!-- Link to the product website -->
 
@@ -12,7 +10,7 @@
 
 ## About 
 
-Our product is designed with the latest technology to bring you the best experience possible. We’ve spent countless hours perfecting the details, listening to user feedback, and ensuring that this product meets your highest expectations. We are proud to present a solution that is both powerful and user-friendly.
+add stuff
 
 ---
 
