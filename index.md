@@ -6,7 +6,7 @@ add mission statement
 
 ---
 
-# about
+# behind the product
 
 add stuff
 
@@ -18,7 +18,7 @@ add people & roles
 
 ---
 
-## testimonials
+# testimonials
 
 > "This product is awesome"
 > — Jane Doe
