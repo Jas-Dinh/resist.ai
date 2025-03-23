@@ -68,6 +68,10 @@ section {
   background: white;
   border: 1px solid rgba(74, 111, 165, 0.2);
   box-shadow: 0 0 10px rgba(74, 111, 165, 0.1);
+  min-height: auto !important;
+  height: auto !important;
+  overflow: visible !important;
+  margin-bottom: 50px; /* Add some space at the bottom */
 }
 
 /* Headings */
