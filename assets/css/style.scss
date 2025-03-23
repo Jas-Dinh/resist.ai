@@ -136,7 +136,7 @@ footer {
   color: var(--light-text);
   border-top: 4px solid var(--light-green);
   padding: 10px 10px 10px 10px !important; /* Increased padding all around, especially bottom */
-  margin-top: 10px; /* Add space above footer */
+  margin-top: 5px; /* Add space above footer */
 }
 
 footer a {
@@ -148,7 +148,7 @@ footer a {
 }
 
 footer p {
-  margin-bottom: 15px !important; /* Ensure text has space at bottom */
+  margin-bottom: 5px !important; /* Ensure text has space at bottom */
 }
 
 /* Download button (if present in theme) */
