@@ -14,7 +14,7 @@ resist.ai promotes antibiotic stewardship by using AI to accelerate bacterial id
 
 # behind the product
 
-resist.ai combines phase contrast microscopy image data with Electronic Health Record (EHR) data to deliver a comprehensive set of personalized antibiotic recommendations. 
+resist.ai uses two distinct modeling pipelines to deliver a comprehensive set of personalized antibiotic recommendations. The first pipeline uses computer vision and phase contrast microscopy image data to identify the bacteria causing an infection. The second uses the identified bacteria and Electronic Health Record (EHR) data to predict antibiotic susceptibilities. 
 
 **1. Identify bacteria**
   - Requires minimal equipment: just a phase contrast microscope and a single photograph captured by a lab technician
@@ -59,21 +59,35 @@ resist.ai combines phase contrast microscopy image data with Electronic Health R
     - Models would have identified a first-tier, susceptible antibiotic for 99% of these patients 
   - *Broad spectrum usage*
     - 85% of patients received a broad spectrum where a lower spectrum was available 
-    - Models would have identified a lower spectrum, susceptible antibiotic for 99% of these patients 
+    - Models would have identified a lower spectrum, susceptible antibiotic for 99% of these patients
+   
+5. Learn
+- Simpler ML models often out-perform complex ones 
+- Balance precision and recall based on clinical context 
+- Stratification is necessary to reduce disparities and improve equity 
+- Data leakage is a complex and nuanced issue in EHR data
+- Explainability is critical for clinical adoption
+- AI has the potential to significantly improve antibiotic stewardship 
+
+---
+
+# so what?  
+
+resist.ai serves as a reliable antibiotic prescription assistant that:
+- Requires **minimal equipment**
+- Provides **personalized** information to inform antibiotic prescribing 
+- Recommends top first-line, narrow-spectrum, susceptible antibiotics to **slow the rate of AMR**
+- Delivers **comprehensive explanations** of why specific antibiotics are selected for each patient
+- And, ultimately saves physicians up to **48 hours** by automatically identifying infectious bacteria and predicting antibiotic susceptibilities
+
+By improving antibiotic recommendations and delivering results much faster than current culture tests, resist.ai could significantly reduce the use of broad-spectrum antibiotics, combat antimicrobial resistance, and improve patient outcomes. Additionally, the data collected could support ongoing antibiotic resistance research.
 
 ---
 
 # meet the team 
 
-- **Rini Gupta** - *Project Lead & ML Engineer* [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]([https://www.linkedin.com/in/yourprofile](https://www.linkedin.com/in/rini-m-gupta/))
-- **Jas Dinh** - *Front-End Developer & ML Engineer*
-- **Katt Painter** - *Product Manager & Data Engineer*
-- **Brian Xiao** - *Product Manager & Data Scientist*
-
----
-
-# testimonials
-
-> "This product is awesome"
-> — Jane Doe
+**Rini Gupta** - *Project Lead & ML Engineer* - [LinkedIn](https://www.linkedin.com/in/rini-m-gupta/)
+**Jas Dinh** - *Front-End Developer & ML Engineer* - [LinkedIn](https://www.linkedin.com/in/jas-dinh/)
+**Katt Painter** - *Product Manager & Data Engineer* - [LinkedIn](https://www.linkedin.com/in/kathryn-painter/)
+**Brian Xiao** - *Product Manager & Data Scientist* - [LinkedIn](https://www.linkedin.com/in/brian-xiao-379b1764/)
 
