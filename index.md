@@ -65,7 +65,10 @@ resist.ai combines phase contrast microscopy image data with Electronic Health R
 
 # meet the team 
 
-add people & roles 
+- **Rini Gupta** - *Project Lead & ML Engineer* [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]([https://www.linkedin.com/in/yourprofile](https://www.linkedin.com/in/rini-m-gupta/))
+- **Jas Dinh** - *Front-End Developer & ML Engineer*
+- **Katt Painter** - *Product Manager & Data Engineer*
+- **Brian Xiao** - *Product Manager & Data Scientist*
 
 ---
 
