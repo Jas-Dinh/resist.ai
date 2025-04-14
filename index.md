@@ -16,7 +16,7 @@ resist.ai uses two distinct modeling pipelines to deliver a comprehensive set of
 
 **1. Identify bacteria**
   - Requires minimal equipment: just a phase contrast microscope and a single photograph captured by a lab technician
-  - Developed custom convolutional neural network for bacterial identification, trained model on **add data** for three different bacterial species: Escherichia Coli, Klebsiella Pneumoniae, and Psuedomonas Aeruginosa
+  - Developed custom convolutional neural network for bacterial identification, trained model on [Phase-Contrast Time Lapse Data](https://zenodo.org/records/10069635) for three different bacterial species: Escherichia Coli, Klebsiella Pneumoniae, and Psuedomonas Aeruginosa
   - Simpler deep learning architectures outperformed complex, large models
 
 ![CNN Architecture](images/CNN_architecture.png)
