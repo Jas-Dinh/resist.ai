@@ -1,4 +1,4 @@
-![Product Logo](images/resistai-logo.svg)  <!-- Replace with your logo image path -->
+![Product Logo](images/resistai-logo.svg)  
 
 # antibiotic stewardship
 
@@ -16,10 +16,12 @@ resist.ai promotes antibiotic stewardship by using AI to accelerate bacterial id
 
 resist.ai combines phase contrast microscopy image data with Electronic Health Record (EHR) data to deliver a comprehensive set of personalized antibiotic recommendations. 
 
-**1. Identify the bacteria**
+**1. Identify bacteria**
   - Requires minimal equipment: just a phase contrast microscope and a single photograph captured by a lab technician
   - Developed custom convolutional neural network for bacterial identification, trained model on **add data** for three different bacterial species: Escherichia Coli, Klebsiella Pneumoniae, and Psuedomonas Aeruginosa
   - Simpler deep learning architectures outperformed complex, large models
+
+![CNN Architecture](images/CNN_architecture.png)
 
 **2. Predict antibiotic susceptibilities**
   - Transformed complex EHR data from the [MIMIC IV Database](https://mimic.mit.edu/) into meaningful features while preventing data leakage
@@ -35,25 +37,27 @@ resist.ai combines phase contrast microscopy image data with Electronic Health R
 - Identified key patient-specific features (lab values, medication history, clinical timeline) that influence antibiotic resistance probabilities
 - Explainable predictions enable clinicians to understand not just what the model predicts, but why
 
+![SHAP Values](images/SHAP_example.png)
+
 **4. Evaluate**
-- Technical performance
+- **Technical performance**
   - Microscopy model: 97% overall accuracy, with precision ranging from 0.89 to 1.00 and recall from 0.96 to 0.98
   - EHR-based antibiotic susceptibility models: precision between 0.55 and 0.96, comparable to research results (0.46-0.99)
     
-- Fairness
+- **Fairness assessment**
   - Tested E. coli + Ampicillin across racial groups
   - No statistically significant difference in overall accuracies (chi-squared: 12.6, p-value: 0.39)
   - Identified disparities in specific error types (i.e., false-positive rates)
   - Reduced disparities significantly through stratification on combined racial category and target, eliminating statistical significance in differences for 3 groups and lowering false positive rates for Hispanic groups from 45% to 24%
   
-- Decision comparison 
-  - **Resistance assessment**
+- **Decision comparison** 
+  - *Resistance assessment*
     - 19% of antibiotics prescribed by physicians were resistant
     -  Models would have correctly identified 59% of these antibiotics as resistant
-  - **Lower tier usage**
+  - *Lower tier usage*
     - 56% of patients received a lower tier where a higher tier was available 
     - Models would have identified a first-tier, susceptible antibiotic for 99% of these patients 
-  - **Broad spectrum usage**
+  - *Broad spectrum usage*
     - 85% of patients received a broad spectrum where a lower spectrum was available 
     - Models would have identified a lower spectrum, susceptible antibiotic for 99% of these patients 
 
