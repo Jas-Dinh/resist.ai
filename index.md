@@ -8,7 +8,7 @@ The consequences are severe. The CDC estimates over 35,000 Americans die annuall
 
 Broad-spectrum antibiotics create wider disruption of beneficial microbiota, allowing resistant bacteria to thrive without competition, and increase selective pressure for resistant genes. Effective antibiotic stewardship programs rely on timely, accurate information about bacterial pathogens and their susceptibility patterns. Due to the current 24-48 hour delay, physicians often resort to empirical broad-spectrum therapy as a safety measure, undermining stewardship efforts.
 
-resist.ai supports antibiotic stewardship by using AI to accelerate bacterial identification and antibiotic susceptibility testing, potentially saving up to 48 hours in treatment decisions. By providing rapid, personalized antibiotic recommendations, our system supports antibiotic stewardship, reducing inappropriate antibiotic use while improving patient care.
+**resist.ai supports antibiotic stewardship by using AI to accelerate bacterial identification and antibiotic susceptibility testing, potentially saving up to 48 hours in treatment decisions. By providing rapid, personalized antibiotic recommendations, our system supports antibiotic stewardship, reducing inappropriate antibiotic use while improving patient care.**
 
 # behind the product
 
