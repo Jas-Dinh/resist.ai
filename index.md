@@ -14,7 +14,26 @@ resist.ai promotes antibiotic stewardship by using AI to accelerate bacterial id
 
 # behind the product
 
-add stuff
+resist.ai combines phase contrast microscopy image data with Electronic Health Record (EHR) data to deliver a comprehensive set of personalized antibiotic recommendations. 
+
+1. Identify the bacteria
+  - Developed custom convolutional neural network for bacterial identification, trained model on **add data** for three different bacterial species: Escherichia Coli, Klebsiella Pneumoniae, and Psuedomonas Aeruginosa
+  - Interestingly, simpler deep learning architectures outperformed complex, large models
+  - The system requires minimal equipment: just a phase contrast microscope and a single photograph captured by a lab technician
+
+2. Predict antibiotic susceptibilities
+  - Transformed complex EHR data from the [MIMIC IV Database](https://mimic.mit.edu/) into meaningful features while preventing data leakage
+      - Key techniques included higher-level racial groupings, mean imputation by gender & age, CCSR category mapping, ATC category mapping, and bag-of-words counts
+      - Tracked total medical procedures and days since last medical procedure
+  - Evaluated logistic regression, Random Forest, XGBoost, and Histogram-Based XGBoost
+  - Histogram-Based XGBoost selected as it effectively handles missing values common in EHR data
+  - Built individual models for each bacteria-antibiotic pair
+  - Prioritized precision over recall as prescribing a resistant antibiotic (false positive) is more dangerous than missing a susceptible one (false negative)
+
+3. Evaluation
+- Used SHAP values to transform ML-based antibiogram from a "black box" into an interpretable clinical tool
+  - Identified key patient-specific features (lab values, medication history, clinical timeline) that influence antibiotic resistance probabilities
+
 
 ---
 
