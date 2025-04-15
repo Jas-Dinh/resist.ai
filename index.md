@@ -10,7 +10,7 @@ Broad-spectrum antibiotics create wider disruption of beneficial microbiota, all
 
 **resist.ai supports antibiotic stewardship by using AI to accelerate bacterial identification and antibiotic susceptibility testing, potentially saving up to 48 hours in treatment decisions. By providing rapid, personalized antibiotic recommendations, our system supports antibiotic stewardship, reducing inappropriate antibiotic use while improving patient care.**
 
-# resist.ai demo
+# demo
 
 <video width="640" height="360" controls>
   <source src="images/resistai_demo.webm" type="video/webm">
