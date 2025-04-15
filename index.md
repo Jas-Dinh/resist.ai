@@ -15,8 +15,7 @@ Broad-spectrum antibiotics create wider disruption of beneficial microbiota, all
 <video width="640" height="360" controls>
   <source src="images/resistai_demo.webm" type="video/webm">
 </video>
-
-
+\
 # behind the product
 
 resist.ai uses two distinct modeling pipelines to deliver a comprehensive set of personalized antibiotic recommendations. The first pipeline uses computer vision and phase contrast microscopy image data to identify the bacteria causing an infection. The second uses the identified bacteria and Electronic Health Record (EHR) data to predict antibiotic susceptibilities. 
